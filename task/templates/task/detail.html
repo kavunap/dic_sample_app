@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Ec2DeployApp</title>
+  </head>
+
+  <body>
+    <p>
+      <strong>Title:</strong>
+      {{obj.title}}
+    </p>
+
+    <p>
+      <strong>Body:</strong>
+      {{obj.body}}
+    </p>
+    <a href="{% url 'index' %}">Back</a> |
+    <a href="{% url 'edit' obj.id %}">Edit</a>
+  </body>
+
+</html>
