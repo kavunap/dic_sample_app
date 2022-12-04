@@ -25,7 +25,11 @@ SECRET_KEY = '#2k-8oq)k*ej5$1)(-ka*k@%4-cwrh^4h24_77t+ohw!3bwa$v'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+  'localhost',
+  '127.0.0.1',
+  '111.222.333.444',
+  'mywebsite.example']
 
 
 # Application definition
@@ -123,3 +127,5 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
+import django
+django.setup()
