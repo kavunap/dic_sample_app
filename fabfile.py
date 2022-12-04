@@ -128,5 +128,5 @@ def pull():
 
 def prepare_deploy():
     # local("./manage.py test dic_sample_app")
-    local("git add -p && git commit")
+    local("git add -p && git commit -m new")
     local("git push")
