@@ -26,8 +26,8 @@
 
 import os
 from fabric.contrib.files import sed
-from fabric.api import env, local, run
 from fabric.api import *
+# from fabric.api import *
 
 # initialize the base directory
 abs_dir_path = os.path.dirname(
@@ -37,13 +37,13 @@ abs_dir_path = os.path.dirname(
 # declare environment global variables
 
 # root user
-env.user = 'kavunap'
+# env.user = 'kavunap'
 
 # list of remote IP addresses
-env.hosts = ['ec2-user@3.142.255.190']
+env.hosts = ['3.142.255.190']
 
 # password for the remote server
-env.password = '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'
+# env.password = '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'
 
 # full name of the user
 # env.full_name_user = 'kavuna paul'
@@ -52,7 +52,8 @@ env.password = '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'
 # env.user_group = 'deployers'
 
 # user for the above group
-env.user_name = 'kavunap'
+# env.user_name = 'kavunap'
+env.forward_agent=True
 
 # ssh key path
 env.ssh_keys_dir = os.path.join(abs_dir_path, 'ssh-keys')
@@ -72,7 +73,7 @@ def start_provision():
     sed('/etc/ssh/sshd_config', '^UsePAM yes', 'UsePAM no')
     sed('/etc/ssh/sshd_config', '^PermitRootLogin yes',
         'PermitRootLogin no')
-    sed('/etc/ssh/sshd_config', '^#PasswordAuthentication yes',
+    sed('/etc/ssh/sshd_config', '^#PasswordAuthentication no',
         'PasswordAuthentication no')
 
     install_ansible_dependencies()
@@ -124,9 +125,12 @@ def clone():
 
 def pull():
     with cd('~/workspace/dive-into-code/aws-deploy'):
-        run('git pull origin main')
+        sudo('git pull origin main')
 
 def prepare_deploy():
     # local("./manage.py test dic_sample_app")
     local("git add -p && git commit -m new")
     local("git push")
+
+def deploy():
+    run('git pull origin main')

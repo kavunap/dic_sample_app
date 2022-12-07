@@ -1,0 +1,365 @@
+# Logfile created on 2022-12-07 21:26:23 +0200 by logger.rb/v1.4.3
+  INFO ---------------------------------------------------------------------------
+  INFO START 2022-12-07 21:26:23 +0200 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [6f8d4063] Running /usr/bin/env mkdir -p /tmp as user@127.0.0.1
+ DEBUG [6f8d4063] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2022-12-07 21:46:06 +0200 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [1a3fca82] Running /usr/bin/env mkdir -p /tmp as user@127.0.0.1
+ DEBUG [1a3fca82] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2022-12-07 21:46:29 +0200 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [6919f703] Running /usr/bin/env mkdir -p /tmp as user@127.0.0.1
+ DEBUG [6919f703] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2022-12-07 21:47:43 +0200 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [c77dbc37] Running /usr/bin/env mkdir -p /tmp as user@127.0.0.1
+ DEBUG [c77dbc37] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2022-12-07 21:51:14 +0200 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [ea860883] Running /usr/bin/env mkdir -p /tmp as ec2-user@3.137.134.143
+ DEBUG [ea860883] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2022-12-07 21:58:09 +0200 cap production deploy:chec
+  INFO ---------------------------------------------------------------------------
+  INFO ---------------------------------------------------------------------------
+  INFO START 2022-12-07 21:58:20 +0200 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [afb40e3c] Running /usr/bin/env mkdir -p /tmp as ec2-user@3.137.134.143
+ DEBUG [afb40e3c] Command: /usr/bin/env mkdir -p /tmp
+  INFO [afb40e3c] Finished in 7.908 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-e825399001df8bf673a7.sh 0.0%
+  INFO Uploading /tmp/git-ssh-e825399001df8bf673a7.sh 100.0%
+  INFO [27c78003] Running /usr/bin/env chmod 700 /tmp/git-ssh-e825399001df8bf673a7.sh as ec2-user@3.137.134.143
+ DEBUG [27c78003] Command: /usr/bin/env chmod 700 /tmp/git-ssh-e825399001df8bf673a7.sh
+  INFO [27c78003] Finished in 2.564 seconds with exit status 0 (successful).
+  INFO [20585aef] Running /usr/bin/env git ls-remote https://github.com/kavunap/dic_sample_app.git HEAD as ec2-user@3.137.134.143
+ DEBUG [20585aef] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-e825399001df8bf673a7.sh" ; /usr/bin/env git ls-remote https://github.com/kavunap/dic_sample_app.git HEAD )
+ DEBUG [20585aef] 	2a85d0adb6a6c7c5d485949513c328e68e0a2e12	HEAD
+  INFO [20585aef] Finished in 2.234 seconds with exit status 0 (successful).
+  INFO [fbe27a13] Running /usr/bin/env mkdir -p /var/www/DIC_Sample/shared /var/www/DIC_Sample/releases as ec2-user@3.137.134.143
+ DEBUG [fbe27a13] Command: /usr/bin/env mkdir -p /var/www/DIC_Sample/shared /var/www/DIC_Sample/releases
+ DEBUG [fbe27a13] 	mkdir: 
+ DEBUG [fbe27a13] 	cannot create directory ‘/var/www/DIC_Sample’
+ DEBUG [fbe27a13] 	: Permission denied
+ DEBUG [fbe27a13] 	
+ DEBUG [fbe27a13] 	mkdir: 
+ DEBUG [fbe27a13] 	cannot create directory ‘/var/www/DIC_Sample’
+ DEBUG [fbe27a13] 	: Permission denied
+ DEBUG [fbe27a13] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2022-12-07 22:04:35 +0200 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [4c4bf83c] Running /usr/bin/env mkdir -p /tmp as ec2-user@3.137.134.143
+ DEBUG [4c4bf83c] Command: /usr/bin/env mkdir -p /tmp
+  INFO [4c4bf83c] Finished in 9.475 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-8210982d5e3d8a71316b.sh 0.0%
+  INFO Uploading /tmp/git-ssh-8210982d5e3d8a71316b.sh 100.0%
+  INFO [d7de579a] Running /usr/bin/env chmod 700 /tmp/git-ssh-8210982d5e3d8a71316b.sh as ec2-user@3.137.134.143
+ DEBUG [d7de579a] Command: /usr/bin/env chmod 700 /tmp/git-ssh-8210982d5e3d8a71316b.sh
+  INFO [d7de579a] Finished in 1.636 seconds with exit status 0 (successful).
+  INFO [f9b644c0] Running /usr/bin/env git ls-remote https://github.com/kavunap/dic_sample_app.git HEAD as ec2-user@3.137.134.143
+ DEBUG [f9b644c0] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-8210982d5e3d8a71316b.sh" ; /usr/bin/env git ls-remote https://github.com/kavunap/dic_sample_app.git HEAD )
+ DEBUG [f9b644c0] 	2a85d0adb6a6c7c5d485949513c328e68e0a2e12	HEAD
+  INFO [f9b644c0] Finished in 3.384 seconds with exit status 0 (successful).
+  INFO [355e9baa] Running /usr/bin/env mkdir -p /var/www/DIC_Sample/shared /var/www/DIC_Sample/releases as ec2-user@3.137.134.143
+ DEBUG [355e9baa] Command: /usr/bin/env mkdir -p /var/www/DIC_Sample/shared /var/www/DIC_Sample/releases
+ DEBUG [355e9baa] 	mkdir: 
+ DEBUG [355e9baa] 	cannot create directory ‘/var/www/DIC_Sample’
+ DEBUG [355e9baa] 	: Permission denied
+ DEBUG [355e9baa] 	
+ DEBUG [355e9baa] 	mkdir: 
+ DEBUG [355e9baa] 	cannot create directory ‘/var/www/DIC_Sample’
+ DEBUG [355e9baa] 	: Permission denied
+ DEBUG [355e9baa] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2022-12-07 22:20:34 +0200 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [7d68a892] Running /usr/bin/env mkdir -p /tmp as ec2-user@3.137.134.143
+ DEBUG [7d68a892] Command: /usr/bin/env mkdir -p /tmp
+  INFO [7d68a892] Finished in 8.376 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-8e5fb9608247ab15ebd2.sh 0.0%
+  INFO Uploading /tmp/git-ssh-8e5fb9608247ab15ebd2.sh 100.0%
+  INFO [10418250] Running /usr/bin/env chmod 700 /tmp/git-ssh-8e5fb9608247ab15ebd2.sh as ec2-user@3.137.134.143
+ DEBUG [10418250] Command: /usr/bin/env chmod 700 /tmp/git-ssh-8e5fb9608247ab15ebd2.sh
+  INFO [10418250] Finished in 1.629 seconds with exit status 0 (successful).
+  INFO [fa623ca8] Running /usr/bin/env git ls-remote https://github.com/kavunap/dic_sample_app.git HEAD as ec2-user@3.137.134.143
+ DEBUG [fa623ca8] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-8e5fb9608247ab15ebd2.sh" ; /usr/bin/env git ls-remote https://github.com/kavunap/dic_sample_app.git HEAD )
+ DEBUG [fa623ca8] 	2a85d0adb6a6c7c5d485949513c328e68e0a2e12	HEAD
+  INFO [fa623ca8] Finished in 1.941 seconds with exit status 0 (successful).
+  INFO [827fcace] Running /usr/bin/env mkdir -p /var/www/DIC_Sample/shared /var/www/DIC_Sample/releases as ec2-user@3.137.134.143
+ DEBUG [827fcace] Command: /usr/bin/env mkdir -p /var/www/DIC_Sample/shared /var/www/DIC_Sample/releases
+ DEBUG [827fcace] 	mkdir: 
+ DEBUG [827fcace] 	cannot create directory ‘/var/www/DIC_Sample’
+ DEBUG [827fcace] 	: Permission denied
+ DEBUG [827fcace] 	
+ DEBUG [827fcace] 	mkdir: 
+ DEBUG [827fcace] 	cannot create directory ‘/var/www/DIC_Sample’
+ DEBUG [827fcace] 	: Permission denied
+ DEBUG [827fcace] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2022-12-07 22:22:47 +0200 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [d0f47fd5] Running /usr/bin/env sudo mkdir -pv /var/www/DIC_Sample as ec2-user@3.137.134.143
+ DEBUG [d0f47fd5] Command: /usr/bin/env sudo mkdir -pv /var/www/DIC_Sample
+ DEBUG [d0f47fd5] 	mkdir: created directory ‘/var/www/DIC_Sample’
+  INFO [d0f47fd5] Finished in 6.227 seconds with exit status 0 (successful).
+ DEBUG [e5470c4d] Running /usr/bin/env id -un as ec2-user@3.137.134.143
+ DEBUG [e5470c4d] Command: /usr/bin/env id -un
+ DEBUG [e5470c4d] 	ec2-user
+ DEBUG [e5470c4d] Finished in 2.151 seconds with exit status 0 (successful).
+ DEBUG [74a70e15] Running /usr/bin/env id -gn as ec2-user@3.137.134.143
+ DEBUG [74a70e15] Command: /usr/bin/env id -gn
+ DEBUG [74a70e15] 	ec2-user
+ DEBUG [74a70e15] Finished in 1.647 seconds with exit status 0 (successful).
+  INFO [462f9111] Running /usr/bin/env sudo chown ec2-user:ec2-user /var/www/DIC_Sample as ec2-user@3.137.134.143
+ DEBUG [462f9111] Command: /usr/bin/env sudo chown ec2-user:ec2-user /var/www/DIC_Sample
+  INFO [462f9111] Finished in 2.892 seconds with exit status 0 (successful).
+  INFO [14c1f704] Running /usr/bin/env mkdir -p /tmp as ec2-user@3.137.134.143
+ DEBUG [14c1f704] Command: /usr/bin/env mkdir -p /tmp
+  INFO [14c1f704] Finished in 1.687 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-35570b7d2202f60280d2.sh 0.0%
+  INFO Uploading /tmp/git-ssh-35570b7d2202f60280d2.sh 100.0%
+  INFO [5c4de261] Running /usr/bin/env chmod 700 /tmp/git-ssh-35570b7d2202f60280d2.sh as ec2-user@3.137.134.143
+ DEBUG [5c4de261] Command: /usr/bin/env chmod 700 /tmp/git-ssh-35570b7d2202f60280d2.sh
+  INFO [5c4de261] Finished in 2.622 seconds with exit status 0 (successful).
+  INFO [1ef96985] Running /usr/bin/env git ls-remote https://github.com/kavunap/dic_sample_app.git HEAD as ec2-user@3.137.134.143
+ DEBUG [1ef96985] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-35570b7d2202f60280d2.sh" ; /usr/bin/env git ls-remote https://github.com/kavunap/dic_sample_app.git HEAD )
+ DEBUG [1ef96985] 	2a85d0adb6a6c7c5d485949513c328e68e0a2e12	HEAD
+  INFO [1ef96985] Finished in 1.976 seconds with exit status 0 (successful).
+  INFO [65339ba7] Running /usr/bin/env mkdir -p /var/www/DIC_Sample/shared /var/www/DIC_Sample/releases as ec2-user@3.137.134.143
+ DEBUG [65339ba7] Command: /usr/bin/env mkdir -p /var/www/DIC_Sample/shared /var/www/DIC_Sample/releases
+  INFO [65339ba7] Finished in 2.859 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2022-12-07 22:25:55 +0200 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [b486cb92] Running /usr/bin/env sudo mkdir -pv /var/www/dic_sample_app as ec2-user@3.137.134.143
+ DEBUG [b486cb92] Command: /usr/bin/env sudo mkdir -pv /var/www/dic_sample_app
+  INFO [b486cb92] Finished in 4.686 seconds with exit status 0 (successful).
+ DEBUG [9507231b] Running /usr/bin/env id -un as ec2-user@3.137.134.143
+ DEBUG [9507231b] Command: /usr/bin/env id -un
+ DEBUG [9507231b] 	ec2-user
+ DEBUG [9507231b] Finished in 2.966 seconds with exit status 0 (successful).
+ DEBUG [7f7d2727] Running /usr/bin/env id -gn as ec2-user@3.137.134.143
+ DEBUG [7f7d2727] Command: /usr/bin/env id -gn
+ DEBUG [7f7d2727] 	ec2-user
+ DEBUG [7f7d2727] Finished in 1.732 seconds with exit status 0 (successful).
+  INFO [b7f4cfe8] Running /usr/bin/env sudo chown ec2-user:ec2-user /var/www/dic_sample_app as ec2-user@3.137.134.143
+ DEBUG [b7f4cfe8] Command: /usr/bin/env sudo chown ec2-user:ec2-user /var/www/dic_sample_app
+  INFO [b7f4cfe8] Finished in 3.375 seconds with exit status 0 (successful).
+  INFO [7febca12] Running /usr/bin/env mkdir -p /tmp as ec2-user@3.137.134.143
+ DEBUG [7febca12] Command: /usr/bin/env mkdir -p /tmp
+  INFO [7febca12] Finished in 3.273 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-9e38dc9fde0a67f09bb9.sh 0.0%
+  INFO Uploading /tmp/git-ssh-9e38dc9fde0a67f09bb9.sh 100.0%
+  INFO [a70393b5] Running /usr/bin/env chmod 700 /tmp/git-ssh-9e38dc9fde0a67f09bb9.sh as ec2-user@3.137.134.143
+ DEBUG [a70393b5] Command: /usr/bin/env chmod 700 /tmp/git-ssh-9e38dc9fde0a67f09bb9.sh
+  INFO [a70393b5] Finished in 3.197 seconds with exit status 0 (successful).
+  INFO [c04320fb] Running /usr/bin/env git ls-remote https://github.com/kavunap/dic_sample_app.git HEAD as ec2-user@3.137.134.143
+ DEBUG [c04320fb] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-9e38dc9fde0a67f09bb9.sh" ; /usr/bin/env git ls-remote https://github.com/kavunap/dic_sample_app.git HEAD )
+ DEBUG [c04320fb] 	2a85d0adb6a6c7c5d485949513c328e68e0a2e12	HEAD
+  INFO [c04320fb] Finished in 2.863 seconds with exit status 0 (successful).
+  INFO [4767482d] Running /usr/bin/env mkdir -p /var/www/dic_sample_app/shared /var/www/dic_sample_app/releases as ec2-user@3.137.134.143
+ DEBUG [4767482d] Command: /usr/bin/env mkdir -p /var/www/dic_sample_app/shared /var/www/dic_sample_app/releases
+  INFO [4767482d] Finished in 2.347 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2022-12-07 22:28:50 +0200 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [3c160843] Running /usr/bin/env sudo mkdir -pv /var/www/DIC_Sample as ec2-user@3.137.134.143
+ DEBUG [3c160843] Command: /usr/bin/env sudo mkdir -pv /var/www/DIC_Sample
+  INFO [3c160843] Finished in 7.484 seconds with exit status 0 (successful).
+ DEBUG [510166e8] Running /usr/bin/env id -un as ec2-user@3.137.134.143
+ DEBUG [510166e8] Command: /usr/bin/env id -un
+ DEBUG [510166e8] 	ec2-user
+ DEBUG [510166e8] Finished in 3.280 seconds with exit status 0 (successful).
+ DEBUG [7a839aad] Running /usr/bin/env id -gn as ec2-user@3.137.134.143
+ DEBUG [7a839aad] Command: /usr/bin/env id -gn
+ DEBUG [7a839aad] 	ec2-user
+ DEBUG [7a839aad] Finished in 4.102 seconds with exit status 0 (successful).
+  INFO [fba35b54] Running /usr/bin/env sudo chown ec2-user:ec2-user /var/www/DIC_Sample as ec2-user@3.137.134.143
+ DEBUG [fba35b54] Command: /usr/bin/env sudo chown ec2-user:ec2-user /var/www/DIC_Sample
+  INFO [fba35b54] Finished in 3.322 seconds with exit status 0 (successful).
+  INFO [36704bfb] Running /usr/bin/env mkdir -p /tmp as ec2-user@3.137.134.143
+ DEBUG [36704bfb] Command: /usr/bin/env mkdir -p /tmp
+  INFO [36704bfb] Finished in 1.798 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-a892609d75c24eee3916.sh 0.0%
+  INFO Uploading /tmp/git-ssh-a892609d75c24eee3916.sh 100.0%
+  INFO [dab317b4] Running /usr/bin/env chmod 700 /tmp/git-ssh-a892609d75c24eee3916.sh as ec2-user@3.137.134.143
+ DEBUG [dab317b4] Command: /usr/bin/env chmod 700 /tmp/git-ssh-a892609d75c24eee3916.sh
+  INFO [dab317b4] Finished in 3.076 seconds with exit status 0 (successful).
+  INFO [09de52b4] Running /usr/bin/env git ls-remote https://github.com/kavunap/dic_sample_app.git HEAD as ec2-user@3.137.134.143
+ DEBUG [09de52b4] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-a892609d75c24eee3916.sh" ; /usr/bin/env git ls-remote https://github.com/kavunap/dic_sample_app.git HEAD )
+ DEBUG [09de52b4] 	2a85d0adb6a6c7c5d485949513c328e68e0a2e12	HEAD
+  INFO [09de52b4] Finished in 2.662 seconds with exit status 0 (successful).
+  INFO [c52a2fe7] Running /usr/bin/env mkdir -p /var/www/DIC_Sample/shared /var/www/DIC_Sample/releases as ec2-user@3.137.134.143
+ DEBUG [c52a2fe7] Command: /usr/bin/env mkdir -p /var/www/DIC_Sample/shared /var/www/DIC_Sample/releases
+  INFO [c52a2fe7] Finished in 2.827 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2022-12-07 22:29:29 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [a8775f8b] Running /usr/bin/env sudo mkdir -pv /var/www/DIC_Sample as ec2-user@3.137.134.143
+ DEBUG [a8775f8b] Command: /usr/bin/env sudo mkdir -pv /var/www/DIC_Sample
+  INFO [a8775f8b] Finished in 9.264 seconds with exit status 0 (successful).
+ DEBUG [c83d83f8] Running /usr/bin/env id -un as ec2-user@3.137.134.143
+ DEBUG [c83d83f8] Command: /usr/bin/env id -un
+ DEBUG [c83d83f8] 	ec2-user
+ DEBUG [c83d83f8] Finished in 1.641 seconds with exit status 0 (successful).
+ DEBUG [d03ab6bd] Running /usr/bin/env id -gn as ec2-user@3.137.134.143
+ DEBUG [d03ab6bd] Command: /usr/bin/env id -gn
+ DEBUG [d03ab6bd] 	ec2-user
+ DEBUG [d03ab6bd] Finished in 3.165 seconds with exit status 0 (successful).
+  INFO [9188b9b8] Running /usr/bin/env sudo chown ec2-user:ec2-user /var/www/DIC_Sample as ec2-user@3.137.134.143
+ DEBUG [9188b9b8] Command: /usr/bin/env sudo chown ec2-user:ec2-user /var/www/DIC_Sample
+  INFO [9188b9b8] Finished in 1.752 seconds with exit status 0 (successful).
+  INFO [0a539ba2] Running /usr/bin/env mkdir -p /tmp as ec2-user@3.137.134.143
+ DEBUG [0a539ba2] Command: /usr/bin/env mkdir -p /tmp
+  INFO [0a539ba2] Finished in 3.479 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-de2344ee515800c33886.sh 0.0%
+  INFO Uploading /tmp/git-ssh-de2344ee515800c33886.sh 100.0%
+  INFO [702cfbe4] Running /usr/bin/env chmod 700 /tmp/git-ssh-de2344ee515800c33886.sh as ec2-user@3.137.134.143
+ DEBUG [702cfbe4] Command: /usr/bin/env chmod 700 /tmp/git-ssh-de2344ee515800c33886.sh
+  INFO [702cfbe4] Finished in 1.685 seconds with exit status 0 (successful).
+  INFO [5d59d669] Running /usr/bin/env git ls-remote https://github.com/kavunap/dic_sample_app.git HEAD as ec2-user@3.137.134.143
+ DEBUG [5d59d669] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-de2344ee515800c33886.sh" ; /usr/bin/env git ls-remote https://github.com/kavunap/dic_sample_app.git HEAD )
+ DEBUG [5d59d669] 	2a85d0adb6a6c7c5d485949513c328e68e0a2e12	HEAD
+  INFO [5d59d669] Finished in 3.482 seconds with exit status 0 (successful).
+  INFO [c68e7b93] Running /usr/bin/env mkdir -p /var/www/DIC_Sample/shared /var/www/DIC_Sample/releases as ec2-user@3.137.134.143
+ DEBUG [c68e7b93] Command: /usr/bin/env mkdir -p /var/www/DIC_Sample/shared /var/www/DIC_Sample/releases
+  INFO [c68e7b93] Finished in 2.924 seconds with exit status 0 (successful).
+ DEBUG [bace8534] Running [ -f /var/www/DIC_Sample/current/REVISION ] as ec2-user@3.137.134.143
+ DEBUG [bace8534] Command: [ -f /var/www/DIC_Sample/current/REVISION ]
+ DEBUG [bace8534] Finished in 4.545 seconds with exit status 1 (failed).
+ DEBUG [20ac55f6] Running [ -f /var/www/DIC_Sample/repo/HEAD ] as ec2-user@3.137.134.143
+ DEBUG [20ac55f6] Command: [ -f /var/www/DIC_Sample/repo/HEAD ]
+ DEBUG [20ac55f6] Finished in 1.735 seconds with exit status 1 (failed).
+ DEBUG [f8c9ef30] Running if test ! -d /var/www/DIC_Sample; then echo "Directory does not exist '/var/www/DIC_Sample'" 1>&2; false; fi as ec2-user@3.137.134.143
+ DEBUG [f8c9ef30] Command: if test ! -d /var/www/DIC_Sample; then echo "Directory does not exist '/var/www/DIC_Sample'" 1>&2; false; fi
+ DEBUG [f8c9ef30] Finished in 4.406 seconds with exit status 0 (successful).
+  INFO [cbc8ea97] Running /usr/bin/env git clone --mirror https://github.com/kavunap/dic_sample_app.git /var/www/DIC_Sample/repo as ec2-user@3.137.134.143
+ DEBUG [cbc8ea97] Command: cd /var/www/DIC_Sample && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-de2344ee515800c33886.sh" ; /usr/bin/env git clone --mirror https://github.com/kavunap/dic_sample_app.git /var/www/DIC_Sample/repo )
+ DEBUG [cbc8ea97] 	Cloning into bare repository '/var/www/DIC_Sample/repo'...
+  INFO [cbc8ea97] Finished in 1.942 seconds with exit status 0 (successful).
+ DEBUG [63f0327d] Running if test ! -d /var/www/DIC_Sample/repo; then echo "Directory does not exist '/var/www/DIC_Sample/repo'" 1>&2; false; fi as ec2-user@3.137.134.143
+ DEBUG [63f0327d] Command: if test ! -d /var/www/DIC_Sample/repo; then echo "Directory does not exist '/var/www/DIC_Sample/repo'" 1>&2; false; fi
+ DEBUG [63f0327d] Finished in 3.062 seconds with exit status 0 (successful).
+  INFO [c2e7998a] Running /usr/bin/env git remote set-url origin https://github.com/kavunap/dic_sample_app.git as ec2-user@3.137.134.143
+ DEBUG [c2e7998a] Command: cd /var/www/DIC_Sample/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-de2344ee515800c33886.sh" ; /usr/bin/env git remote set-url origin https://github.com/kavunap/dic_sample_app.git )
+  INFO [c2e7998a] Finished in 1.729 seconds with exit status 0 (successful).
+  INFO [c827676e] Running /usr/bin/env git remote update --prune as ec2-user@3.137.134.143
+ DEBUG [c827676e] Command: cd /var/www/DIC_Sample/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-de2344ee515800c33886.sh" ; /usr/bin/env git remote update --prune )
+  INFO [c827676e] Finished in 2.989 seconds with exit status 0 (successful).
+ DEBUG [33745ee5] Running if test ! -d /var/www/DIC_Sample/repo; then echo "Directory does not exist '/var/www/DIC_Sample/repo'" 1>&2; false; fi as ec2-user@3.137.134.143
+ DEBUG [33745ee5] Command: if test ! -d /var/www/DIC_Sample/repo; then echo "Directory does not exist '/var/www/DIC_Sample/repo'" 1>&2; false; fi
+ DEBUG [33745ee5] Finished in 1.635 seconds with exit status 0 (successful).
+  INFO [e64e7944] Running /usr/bin/env mkdir -p /var/www/DIC_Sample/releases/20221207203006 as ec2-user@3.137.134.143
+ DEBUG [e64e7944] Command: cd /var/www/DIC_Sample/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-de2344ee515800c33886.sh" ; /usr/bin/env mkdir -p /var/www/DIC_Sample/releases/20221207203006 )
+  INFO [e64e7944] Finished in 3.585 seconds with exit status 0 (successful).
+  INFO [2e0a4893] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/DIC_Sample/releases/20221207203006 as ec2-user@3.137.134.143
+ DEBUG [2e0a4893] Command: cd /var/www/DIC_Sample/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-de2344ee515800c33886.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/DIC_Sample/releases/20221207203006 )
+ DEBUG [2e0a4893] 	fatal: not a valid object name: master
+ DEBUG [2e0a4893] 	tar: 
+ DEBUG [2e0a4893] 	This does not look like a tar archive
+ DEBUG [2e0a4893] 	
+ DEBUG [2e0a4893] 	tar: 
+ DEBUG [2e0a4893] 	Exiting with failure status due to previous errors
+ DEBUG [2e0a4893] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2022-12-07 22:40:19 +0200 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [2911e234] Running /usr/bin/env sudo mkdir -pv /var/www/DIC_Sample as ec2-user@3.137.134.143
+ DEBUG [2911e234] Command: /usr/bin/env sudo mkdir -pv /var/www/DIC_Sample
+  INFO [2911e234] Finished in 6.621 seconds with exit status 0 (successful).
+ DEBUG [ed2e3b57] Running /usr/bin/env id -un as ec2-user@3.137.134.143
+ DEBUG [ed2e3b57] Command: /usr/bin/env id -un
+ DEBUG [ed2e3b57] 	ec2-user
+ DEBUG [ed2e3b57] Finished in 2.439 seconds with exit status 0 (successful).
+ DEBUG [00c3d5ca] Running /usr/bin/env id -gn as ec2-user@3.137.134.143
+ DEBUG [00c3d5ca] Command: /usr/bin/env id -gn
+ DEBUG [00c3d5ca] 	ec2-user
+ DEBUG [00c3d5ca] Finished in 1.633 seconds with exit status 0 (successful).
+  INFO [fe8a4fde] Running /usr/bin/env sudo chown ec2-user:ec2-user /var/www/DIC_Sample as ec2-user@3.137.134.143
+ DEBUG [fe8a4fde] Command: /usr/bin/env sudo chown ec2-user:ec2-user /var/www/DIC_Sample
+  INFO [fe8a4fde] Finished in 1.636 seconds with exit status 0 (successful).
+  INFO [94e716e6] Running /usr/bin/env mkdir -p /tmp as ec2-user@3.137.134.143
+ DEBUG [94e716e6] Command: /usr/bin/env mkdir -p /tmp
+  INFO [94e716e6] Finished in 3.270 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-9765242a78b481a65d24.sh 0.0%
+  INFO Uploading /tmp/git-ssh-9765242a78b481a65d24.sh 100.0%
+  INFO [4293e5e2] Running /usr/bin/env chmod 700 /tmp/git-ssh-9765242a78b481a65d24.sh as ec2-user@3.137.134.143
+ DEBUG [4293e5e2] Command: /usr/bin/env chmod 700 /tmp/git-ssh-9765242a78b481a65d24.sh
+  INFO [4293e5e2] Finished in 3.172 seconds with exit status 0 (successful).
+  INFO [92a34bad] Running /usr/bin/env git ls-remote https://github.com/kavunap/dic_sample_app.git HEAD as ec2-user@3.137.134.143
+ DEBUG [92a34bad] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-9765242a78b481a65d24.sh" ; /usr/bin/env git ls-remote https://github.com/kavunap/dic_sample_app.git HEAD )
+ DEBUG [92a34bad] 	2a85d0adb6a6c7c5d485949513c328e68e0a2e12	HEAD
+  INFO [92a34bad] Finished in 3.260 seconds with exit status 0 (successful).
+  INFO [1250c098] Running /usr/bin/env mkdir -p /var/www/DIC_Sample/shared /var/www/DIC_Sample/releases as ec2-user@3.137.134.143
+ DEBUG [1250c098] Command: /usr/bin/env mkdir -p /var/www/DIC_Sample/shared /var/www/DIC_Sample/releases
+  INFO [1250c098] Finished in 2.908 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2022-12-07 22:41:44 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [d020e1f8] Running /usr/bin/env sudo mkdir -pv /var/www/DIC_Sample as ec2-user@3.137.134.143
+ DEBUG [d020e1f8] Command: /usr/bin/env sudo mkdir -pv /var/www/DIC_Sample
+  INFO [d020e1f8] Finished in 7.242 seconds with exit status 0 (successful).
+ DEBUG [3841e301] Running /usr/bin/env id -un as ec2-user@3.137.134.143
+ DEBUG [3841e301] Command: /usr/bin/env id -un
+ DEBUG [3841e301] 	ec2-user
+ DEBUG [3841e301] Finished in 3.580 seconds with exit status 0 (successful).
+ DEBUG [c4b63cc7] Running /usr/bin/env id -gn as ec2-user@3.137.134.143
+ DEBUG [c4b63cc7] Command: /usr/bin/env id -gn
+ DEBUG [c4b63cc7] 	ec2-user
+ DEBUG [c4b63cc7] Finished in 2.989 seconds with exit status 0 (successful).
+  INFO [e0016d3c] Running /usr/bin/env sudo chown ec2-user:ec2-user /var/www/DIC_Sample as ec2-user@3.137.134.143
+ DEBUG [e0016d3c] Command: /usr/bin/env sudo chown ec2-user:ec2-user /var/www/DIC_Sample
+  INFO [e0016d3c] Finished in 1.721 seconds with exit status 0 (successful).
+  INFO [183fa8a5] Running /usr/bin/env mkdir -p /tmp as ec2-user@3.137.134.143
+ DEBUG [183fa8a5] Command: /usr/bin/env mkdir -p /tmp
+  INFO [183fa8a5] Finished in 2.557 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-01c3f381cee186e17e46.sh 0.0%
+  INFO Uploading /tmp/git-ssh-01c3f381cee186e17e46.sh 100.0%
+  INFO [c2386d32] Running /usr/bin/env chmod 700 /tmp/git-ssh-01c3f381cee186e17e46.sh as ec2-user@3.137.134.143
+ DEBUG [c2386d32] Command: /usr/bin/env chmod 700 /tmp/git-ssh-01c3f381cee186e17e46.sh
+  INFO [c2386d32] Finished in 3.381 seconds with exit status 0 (successful).
+  INFO [b0e7c6c3] Running /usr/bin/env git ls-remote https://github.com/kavunap/dic_sample_app.git HEAD as ec2-user@3.137.134.143
+ DEBUG [b0e7c6c3] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-01c3f381cee186e17e46.sh" ; /usr/bin/env git ls-remote https://github.com/kavunap/dic_sample_app.git HEAD )
+ DEBUG [b0e7c6c3] 	2a85d0adb6a6c7c5d485949513c328e68e0a2e12	HEAD
+  INFO [b0e7c6c3] Finished in 2.759 seconds with exit status 0 (successful).
+  INFO [667e00fd] Running /usr/bin/env mkdir -p /var/www/DIC_Sample/shared /var/www/DIC_Sample/releases as ec2-user@3.137.134.143
+ DEBUG [667e00fd] Command: /usr/bin/env mkdir -p /var/www/DIC_Sample/shared /var/www/DIC_Sample/releases
+  INFO [667e00fd] Finished in 3.456 seconds with exit status 0 (successful).
+ DEBUG [7b3ab325] Running [ -f /var/www/DIC_Sample/current/REVISION ] as ec2-user@3.137.134.143
+ DEBUG [7b3ab325] Command: [ -f /var/www/DIC_Sample/current/REVISION ]
+ DEBUG [7b3ab325] Finished in 10.981 seconds with exit status 1 (failed).
+ DEBUG [57ecec6a] Running [ -f /var/www/DIC_Sample/repo/HEAD ] as ec2-user@3.137.134.143
+ DEBUG [57ecec6a] Command: [ -f /var/www/DIC_Sample/repo/HEAD ]
+ DEBUG [57ecec6a] Finished in 1.589 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/DIC_Sample/repo
+ DEBUG [1b87de11] Running if test ! -d /var/www/DIC_Sample/repo; then echo "Directory does not exist '/var/www/DIC_Sample/repo'" 1>&2; false; fi as ec2-user@3.137.134.143
+ DEBUG [1b87de11] Command: if test ! -d /var/www/DIC_Sample/repo; then echo "Directory does not exist '/var/www/DIC_Sample/repo'" 1>&2; false; fi
+ DEBUG [1b87de11] Finished in 2.602 seconds with exit status 0 (successful).
+  INFO [354b915c] Running /usr/bin/env git remote set-url origin https://github.com/kavunap/dic_sample_app.git as ec2-user@3.137.134.143
+ DEBUG [354b915c] Command: cd /var/www/DIC_Sample/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-01c3f381cee186e17e46.sh" ; /usr/bin/env git remote set-url origin https://github.com/kavunap/dic_sample_app.git )
+  INFO [354b915c] Finished in 2.044 seconds with exit status 0 (successful).
+  INFO [6087ba88] Running /usr/bin/env git remote update --prune as ec2-user@3.137.134.143
+ DEBUG [6087ba88] Command: cd /var/www/DIC_Sample/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-01c3f381cee186e17e46.sh" ; /usr/bin/env git remote update --prune )
+  INFO [6087ba88] Finished in 6.548 seconds with exit status 0 (successful).
+ DEBUG [5e6e7c59] Running if test ! -d /var/www/DIC_Sample/repo; then echo "Directory does not exist '/var/www/DIC_Sample/repo'" 1>&2; false; fi as ec2-user@3.137.134.143
+ DEBUG [5e6e7c59] Command: if test ! -d /var/www/DIC_Sample/repo; then echo "Directory does not exist '/var/www/DIC_Sample/repo'" 1>&2; false; fi
+ DEBUG [5e6e7c59] Finished in 1.635 seconds with exit status 0 (successful).
+  INFO [a754a4c3] Running /usr/bin/env mkdir -p /var/www/DIC_Sample/releases/20221207204226 as ec2-user@3.137.134.143
+ DEBUG [a754a4c3] Command: cd /var/www/DIC_Sample/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-01c3f381cee186e17e46.sh" ; /usr/bin/env mkdir -p /var/www/DIC_Sample/releases/20221207204226 )
+  INFO [a754a4c3] Finished in 1.840 seconds with exit status 0 (successful).
+  INFO [709e8758] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/DIC_Sample/releases/20221207204226 as ec2-user@3.137.134.143
+ DEBUG [709e8758] Command: cd /var/www/DIC_Sample/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-01c3f381cee186e17e46.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/DIC_Sample/releases/20221207204226 )
+ DEBUG [709e8758] 	fatal: not a valid object name: master
+ DEBUG [709e8758] 	tar: 
+ DEBUG [709e8758] 	This does not look like a tar archive
+ DEBUG [709e8758] 	
+ DEBUG [709e8758] 	tar: 
+ DEBUG [709e8758] 	Exiting with failure status due to previous errors
+ DEBUG [709e8758] 	
